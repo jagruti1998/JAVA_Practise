@@ -8,7 +8,8 @@ My notes on Java important practice questions and Interview Prep
 Brief description or introduction to the topic.
 
 - [basics](src/basics)
-- [methodOverloading](src/methodOverloading/Calculator.java)
-- [constructor](src/constructor)
+- [method Overloading](src/methodOverloading/Calculator.java)
+- [constructor Overloading](src/constructor)
+- [constructor chaining](src/constructor/Person.java)
 
 Each topic is organized in its respective folder. Click on the links above to learn more about each topic.
