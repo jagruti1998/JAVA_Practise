@@ -1,4 +1,4 @@
-package finalKeyword;
+package finalDifferences;
 import java.util.Scanner;
 
 public class FinallyExample {
