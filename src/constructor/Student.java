@@ -27,6 +27,20 @@ public class Student {
     public void display() {
         System.out.println("Name: " + name + ", Age: " + age);
     }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter student name: ");
+        String name = scanner.nextLine();
+
+        System.out.print("Enter student age: ");
+        int age = scanner.nextInt();
+
+        // Create an instance using parameterized constructor
+        Student student = new Student(name, age);
+        student.display();
+
+        scanner.close();
+    }
 }
-
-

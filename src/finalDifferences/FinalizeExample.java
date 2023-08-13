@@ -1,23 +1,16 @@
 package finalDifferences;
 import java.util.Scanner;
 
-
-
-import java.util.Scanner;
-
-class ObjectWithFinalize {
+class FinalizeExample {
     @Override
     protected void finalize() throws Throwable {
         super.finalize();
         System.out.println("Finalize method called: Object about to be garbage collected");
     }
-}
-
-public class FinalizeExample {
-    public static void main(String[] args) {
+public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        ObjectWithFinalize obj = new ObjectWithFinalize();
+        FinalizeExample obj = new FinalizeExample();
         System.out.println("Object created, press Enter to continue...");
         scanner.nextLine();
 

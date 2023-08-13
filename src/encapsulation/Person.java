@@ -7,11 +7,13 @@ public class Person {
 
     // Setter for name
     public void setName(String name) {
+
         this.name = name;
     }
 
     // Getter for name
     public String getName() {
+
         return name;
     }
 
@@ -27,6 +29,7 @@ public class Person {
 
     // Getter for age
     public int getAge() {
+
         return age;
     }
 

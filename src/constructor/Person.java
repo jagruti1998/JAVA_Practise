@@ -1,7 +1,7 @@
 package constructor;
 import java.util.Scanner;
 
-//Constructor chaining
+// Constructor chaining
 public class Person {
     private String name;
     private int age;
@@ -25,5 +25,20 @@ public class Person {
     void display() {
         System.out.println("Name: " + name + ", Age: " + age);
     }
-}
 
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter person name: ");
+        String name = scanner.nextLine();
+
+        System.out.print("Enter person age: ");
+        int age = scanner.nextInt();
+
+        // Create an instance using parameterized constructor
+        Person person = new Person(name, age);
+        person.display();
+
+        scanner.close();
+    }
+}
