@@ -14,6 +14,7 @@ Brief description or introduction to the topic.
 - [Final keyword](src/finalDifferences/FinalExample.java)
 - [Finalize Example](src/finalDifferences/FinalizeExample.java)
 - [Finally Example](src/finalDifferences/FinallyExample.java)
-- -[Encapsulation](src/encapsulation)
+- [Encapsulation](src/encapsulation)
+- [Method Recursion](src/methodRecursion)
 
 Each topic is organized in its respective folder. Click on the links above to learn more about each topic.
