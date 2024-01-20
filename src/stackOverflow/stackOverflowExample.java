@@ -1,6 +1,6 @@
 package stackOverflow;
 
-public class stackOverflowExample {
+public class  stackOverflowExample {
     static void recursiveMethod() {
         System.out.println("Calling recursiveMethod");
         recursiveMethod(); // Recursive call without base case

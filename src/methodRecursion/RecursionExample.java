@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class RecursionExample {
 
+
     // Recursive method to calculate factorial
     static int factorial(int n) {
         if (n == 0 || n == 1) {

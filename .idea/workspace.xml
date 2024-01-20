@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8cecad5-d1ce-4539-9461-ed8e91ac86ba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/abstraction/AbstractionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstract_DesignPattern/AndroidDeveloper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstract_DesignPattern/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstract_DesignPattern/WebDeveloper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory_DesignPatterns/AndroidDeveloper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory_DesignPatterns/DeveloperClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory_DesignPatterns/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory_DesignPatterns/EmployeeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factory_DesignPatterns/WebDeveloper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basics/BasicCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basics/primeFactors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basics/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/methodRecursion/RecursionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/methodRecursion/RecursionExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stackOverflow/stackOverflowExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stackOverflow/stackOverflowExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -44,13 +57,59 @@
       <recent name="C:\Users\prade\Desktop\project\JAVA_Practise\src" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="AbstractionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="abstraction.AbstractionExample" />
+  <component name="RunManager" selected="Application.primeFactors">
+    <configuration name="BasicCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basics.BasicCalculator" />
       <module name="JAVA_Practise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="abstraction.*" />
+          <option name="PATTERN" value="basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeveloperClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Factory_DesignPatterns.DeveloperClient" />
+      <module name="JAVA_Practise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Factory_DesignPatterns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrimeFactors (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrimeFactors" />
+      <module name="JAVA_Practise" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrimeFactors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basics.PrimeFactors" />
+      <module name="JAVA_Practise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="primeFactors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basics.primeFactors" />
+      <module name="JAVA_Practise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -60,7 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AbstractionExample" />
+        <item itemvalue="Application.primeFactors" />
+        <item itemvalue="Application.PrimeFactors (1)" />
+        <item itemvalue="Application.PrimeFactors" />
+        <item itemvalue="Application.DeveloperClient" />
+        <item itemvalue="Application.BasicCalculator" />
       </list>
     </recent_temporary>
   </component>
